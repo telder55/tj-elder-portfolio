@@ -54,7 +54,7 @@ h2 {
     transition: transform .2s;
 }
 
-a {
+#hero a {
     text-decoration: none;
     color: white;
 }
@@ -64,7 +64,7 @@ a {
     transform: scale(1.5);
 }
 
-section {
+.portfolio-section {
     display: flex;
     padding: 0 40px 0 40px;
     /* flex-wrap: wrap; */
@@ -78,10 +78,25 @@ section {
     border-style: solid;
     padding: 2%;
     width: 100%;
-    
 }
 
 .portfolio-images {
     max-width: 100%;
     display: block;
+}
+
+/* #contact {
+    margin-bottom: 20 px;
+} */
+
+#contact li {
+    list-style: none;
+}
+
+#contact ul {
+    margin-bottom: 20px;
+}
+
+#bio p {
+    padding: 40px;
 }
