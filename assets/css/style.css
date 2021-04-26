@@ -96,9 +96,6 @@ h2 {
   background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1);
   padding: 4em;
   color: white;
-  border: black;
-  border-width: 2px;
-  border-radius: 10px;
 }
 
 .flex-parent {
@@ -110,7 +107,7 @@ h2 {
   font-size: 1.2em;
   color: white;
   line-height: 40px;
-  /* max-width: 800px; */
+  max-width: 900px;
 }
 
 @media (min-width: 768px) {
@@ -141,25 +138,36 @@ h2 {
 
 #contact {
   padding: 4em;
+  overflow: hidden;
 }
 
 #contact li {
   list-style: none;
 }
 
-#contact ul {
+#contact-info-list {
   margin-bottom: 20px;
-  flex: display;
+  width: 275px;
+  height: auto;
+  margin: auto;
 }
 
 .contact-card img {
-  float: left;
-  margin: 0 1em 2em 0;
+  display: flex;
+  /* float: left; */
+  padding: 40px;
+  margin: auto;
+}
+
+.contact-card ul {
+  padding-left: 0;
+  font-size: large;
 }
 
 #footer {
   text-align: center;
-  padding: 40px;
+  padding: 30px 0 10px 0;
+
   margin-top: 2px;
   background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1);
 }
