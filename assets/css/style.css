@@ -37,8 +37,13 @@ h2 {
   /* margin-top: 5%; */
   text-align: center;
   font-size: xxx-large;
-  font-weight: 100;
-  color: black;
+  font-weight: 300;
+  /* color: black; */
+  color: #3171a5;
+}
+
+h3 {
+  color: #3171a5;
 }
 
 .nav-links {
@@ -76,7 +81,7 @@ h2 {
   text-align: center;
   border-width: 2px;
   margin: 2px;
-  border-color: black;
+  border-color: #3171a5;
   border-style: solid;
   padding: 2%;
   width: 100%;
