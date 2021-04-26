@@ -6,6 +6,10 @@ body,
 HTML {
   margin: 0 auto;
   height: 100%;
+  background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1);
+}
+
+.container {
 }
 
 #hero {
@@ -38,8 +42,8 @@ h2 {
   text-align: center;
   font-size: xxx-large;
   font-weight: 300;
-  /* color: black; */
-  color: #3171a5;
+  color: white;
+  /* color: #3171a5; */
 }
 
 h3 {
@@ -94,11 +98,10 @@ h3 {
 
 #work {
   margin-bottom: 2em;
+  /* background-color: white; */
 }
 
 #bio {
-  /* background-color: #8ea1b1; */
-  background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1);
   padding: 4em;
   color: white;
 }
@@ -124,7 +127,7 @@ h3 {
     margin: 0;
   }
   h1 {
-    margin-top: 5%;
+    margin-top: 12%;
   }
   #bio p {
     margin: 0 auto 0 auto;
@@ -136,13 +139,9 @@ h3 {
   }
 }
 
-#bio h2 {
-  color: white;
-}
-
 .work-title {
   padding: 20px;
-  margin: 2em;
+  margin: 2em 0 2em 0;
 }
 
 #contact {
@@ -153,12 +152,12 @@ h3 {
 #contact li {
   list-style: none;
   text-decoration: none;
-  color: #3171a5;
+  color: white;
 }
 
 #contact a {
   text-decoration: none;
-  color: #3171a5;
+  color: white;
 }
 
 #contact-info-list {
@@ -185,7 +184,6 @@ h3 {
   padding: 30px 0 10px 0;
 
   margin-top: 2px;
-  background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1);
 }
 
 .carousel-control-prev {
@@ -200,4 +198,13 @@ h3 {
   border: white;
   border-left-width: 50px;
   border-right-width: 50px;
+}
+
+.carousel-caption {
+  background: white;
+  padding: 10px;
+  border: #3171a5;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
 }
