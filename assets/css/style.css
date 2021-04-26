@@ -187,3 +187,17 @@ h3 {
   margin-top: 2px;
   background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1);
 }
+
+.carousel-control-prev {
+  color: black;
+}
+
+.carousel-control-next {
+  color: black;
+}
+
+.carousel-item img {
+  border: white;
+  border-left-width: 50px;
+  border-right-width: 50px;
+}
