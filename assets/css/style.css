@@ -125,6 +125,10 @@ h2 {
     margin: 0 auto 0 auto;
     padding: 40px;
   }
+
+  #contact-info-list {
+    padding-left: 50px;
+  }
 }
 
 #bio h2 {
@@ -143,6 +147,13 @@ h2 {
 
 #contact li {
   list-style: none;
+  text-decoration: none;
+  color: #3171a5;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #3171a5;
 }
 
 #contact-info-list {
@@ -161,7 +172,7 @@ h2 {
 
 .contact-card ul {
   padding-left: 0;
-  font-size: large;
+  font-size: x-large;
 }
 
 #footer {
