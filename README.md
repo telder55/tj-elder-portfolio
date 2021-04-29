@@ -2,9 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+# Link to Portfolio Site
+
+[TJ Elder - Portfolio](https://telder55.github.io/tj-elder-portfolio/)
+
 ## Description
 
-This is a static web page where I keep information about my current coding projects. Please feel free to reach out to me with any [Questions](#questions) by contacting using the information below.
+This is a static web page where I keep information about my current coding projects. Please feel free to reach out to me with any [Questions](#questions).
 
 ## Screenshot
 
